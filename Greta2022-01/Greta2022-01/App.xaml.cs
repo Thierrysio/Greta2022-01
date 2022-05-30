@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Greta202201.Vues;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace Greta2022_01
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new VuesCombats();
         }
 
         protected override void OnStart()
