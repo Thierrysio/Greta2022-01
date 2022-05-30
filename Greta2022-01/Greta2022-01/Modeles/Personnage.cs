@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Greta202201.Modeles
 {
-    class Personnage
+    public class Personnage
     {
         #region Attributs
         private string _nom;
@@ -21,9 +21,14 @@ namespace Greta202201.Modeles
             _vie = vie;
             _force = force;
         }
+
         #endregion
 
-        #region
+        #region Getter/Setter
+        public string Nom { get => _nom; set => _nom = value; }
+        public string Arme { get => _arme; set => _arme = value; }
+        public int Vie { get => _vie; set => _vie = value; }
+        public int Force { get => _force; set => _force = value; }
         #endregion
 
         #region
