@@ -18,7 +18,7 @@ namespace Greta202201.VuesModeles
             CasserLeMur(P2);
         }
 
-        public void CasserLeMur(Personnage param)
+        public string CasserLeMur(Personnage param)
         {
             string Result = ""; // egal d'affectation
             //je verifie que le personnage a une massue
@@ -40,6 +40,8 @@ namespace Greta202201.VuesModeles
             {
                 Result = "le mur est intact";
             }
+
+            return Result;
         }
     }
 }

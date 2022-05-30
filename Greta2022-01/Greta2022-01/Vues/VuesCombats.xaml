@@ -4,7 +4,7 @@
              x:Class="Greta202201.Vues.VuesCombats">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to GRETA!"
+            <Label x:Name="Resultat" Text="Welcome to GRETA!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
