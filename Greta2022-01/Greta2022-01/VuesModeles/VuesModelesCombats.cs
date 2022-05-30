@@ -24,15 +24,15 @@ namespace Greta202201.VuesModeles
             //je verifie que le personnage a une massue
             if(param.Arme == "Massue") // egal de comparaison
             {
-                Result = "J'ai detruit le mur";
+                Result = "J'ai une massue";
             }
             else
             {
-                Result = " je n'ai pas pu detruire le mur";
+                Result = " je n'ai pas de' massue";
             }
             //ensuite je casse le mur
 
-            if( Result == "J'ai detruit le mur")
+            if( Result == "J'ai une massue")
             {
                 Result = "le mur est detruit";
             }
